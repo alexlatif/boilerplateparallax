@@ -10,12 +10,13 @@
 
 #intro {
     color: rgba(255, 255, 255, 0.85);
-    font-size: 30px;
+    font-size: 25px;
     line-height: 110%;
     margin: 2.1rem 0 1.68rem 0;
     position: absolute;
     top: 22%;
-    left: 26%;
+    right: 10vw;
+    left: 19vw;
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -27,10 +28,10 @@
 }
 
 .nln {
-    width: 113px;
+    width: 110px;
     position: absolute;
-    left: 195px;
-    top: 20px;
+    left: 8vw;
+    top: 3vh;
 }
 
 @keyframes bouncing {
@@ -55,24 +56,25 @@
     color: rgba(255, 255, 255, 0.85);
     font-size: 20px;
     position: absolute;
-    left: 47.4%;
-    top: 89%;
+    left: 46vw;
+    top: 84vh;
+    right: 40vw;
     font-family: 'Varela Round', sans-serif;
 }
 
 .solutionText {
     color: rgba(255, 255, 255, 0.85);
     margin-bottom: 34px;
-    margin-left: 399px;
-    font-size: 20px;
+    margin-left: 13vw;
+    font-size: 19px;
     font-family: 'Varela Round', sans-serif;
 }
 
 .solutions {
     color: rgba(255, 255, 255, 0.85);
-    margin-left: 197px;
-    margin-top: 170px;
-    margin-bottom: 79px;
+    margin-left: 9vw;
+    margin-top: 57px;
+    margin-bottom: 28px;
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -83,16 +85,16 @@
 }
 
 #about {
-    width: 885px;
+    width: 70%;
     font-family: 'Varela Round', sans-serif;
     font-size: 18px;
 }
 
 #nadir {
     width: 305px;
-    position: absolute;
-    right: 10%;
-    top: 280%;
+    position: relative;
+    right: -52vw;
+    bottom: 385px;
     font-family: 'Varela Round', sans-serif;
 }
 
@@ -125,22 +127,22 @@
     padding: 0;
     margin: 0;
     /* margin-right: 86px; */
-    margin-left: 122px !important;;
-    margin-top: 34px !important;;
+    margin-left: 7vw !important;
+    margin-top: 5vh !important;
     text-transform: uppercase;
 }
 
 .tab:hover {
     font-family: 'Varela Round', sans-serif;
-    color: #000015;
+    color: #5bc0e3;
     font-size: 20px;
     text-align: center;
     line-height: 48px;
     height: 48px;
     padding: 0;
     margin: 0;
-    margin-left: 122px !important;
-    margin-top: 34px !important;
+    margin-left: 7vw !important;
+    margin-top: 5vh !important;
     text-transform: uppercase;
 }
 
@@ -148,10 +150,50 @@
     position: absolute;
     overflow: visible;
     height: 48px;
-    width: 100%;
+    width: 112%;
     background-color: transparent !important; 
     margin: 0 auto;
     white-space: nowrap;
     display: flex;
     justify-content: center;
+}
+
+#bullet {
+    position: relative;
+    top: 5px;
+    right: 7px;    position: relative;
+    top: 5px;
+    right: 7px;
+}
+
+.listHeader {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.85);
+    margin-left: 10vw;
+    margin-bottom: 35px;
+}
+
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#email {
+    position: relative;
+    top: 9px;
+    right: 13px;
+}
+
+#emailLink {
+    color: #A68F68;
+}
+
+#emailLink:hover {
+    color: #5bc0e3;
+}
+
+.hidden {
+    display: none;
 }
